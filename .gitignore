@@ -1,3 +1,9 @@
 build
 build/**
 **/build
+.gradle
+.gradle/**
+*.class
+*.jar
+**/*.class
+**/*.jar
