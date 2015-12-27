@@ -5,15 +5,6 @@ mainClassName = 'com.yauritux.single.insertion.demo.SingleLinkedListInsertion'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-version = '1.0'
-
-jar {
-  baseName = 'linked-lists'
-  manifest {
-    attributes 'Implementation-Title': 'Linked-List',
-	       'Implementation-Version': version
-  } 
-}
 
 repositories {
   mavenCentral()

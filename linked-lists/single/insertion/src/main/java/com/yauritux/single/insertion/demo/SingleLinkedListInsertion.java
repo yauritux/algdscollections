@@ -1,10 +1,12 @@
 package com.yauritux.single.insertion.demo;
 
+import com.yauritux.single.model.Node;
+
 /**
  * @author yauritux@gmail.com
  *
  */
-public class SingleLinkedListInsertion {	
+public final class SingleLinkedListInsertion {	
 
 	private static Node top;
 
@@ -66,33 +68,5 @@ public class SingleLinkedListInsertion {
 			currentNode = currentNode.getNext();
 		}
 		System.out.println();
-	}
-}
-
-final class Node {
-
-	private String name;
-	private Node next;
-
-	Node() {}
-
-	Node(String name) {
-		this.name = name;
-	}
-
-	final String getName() {
-		return name;
-	}
-
-	final void setName(String name) {
-		this.name = name;
-	}
-
-	final Node getNext() {
-		return next;
-	}
-
-	final void setNext(Node next) {
-		this.next = next;
 	}
 }
