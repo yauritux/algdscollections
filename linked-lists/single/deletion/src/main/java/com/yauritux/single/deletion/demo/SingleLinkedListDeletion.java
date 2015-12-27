@@ -7,22 +7,22 @@ import com.yauritux.single.model.Node;
  */
 public final class SingleLinkedListDeletion {
 
-    static Node top;
+    static Node head;
   
     public static void main(String... args) {
-	top = new Node("A");
-	top.setNext(new Node("B"));
-	top.getNext().setNext(new Node("C"));
-	top.getNext().getNext().setNext(new Node("D"));
+	head = new Node("A");
+	head.setNext(new Node("B"));
+	head.getNext().setNext(new Node("C"));
+	head.getNext().getNext().setNext(new Node("D"));
 	printNodes("Nodes: ");
 
 	// Case 1 - Delete first node
-	top = top.getNext();
+	head = head.getNext();
 	printNodes("Case 1: ");
 
 	// Case 2 - Delete Node in between.
  	// e.g. : Deleting Node C
-	Node currentNode = top;
+	Node currentNode = head;
 	while (!currentNode.getNext().getName().equals("C")) {
 	    currentNode = currentNode.getNext();
 	}	
@@ -30,7 +30,7 @@ public final class SingleLinkedListDeletion {
 	printNodes("Case 2: ");
 
 	// Case 3 - Delete last node.
-	currentNode = top;
+	currentNode = head;
    	while (currentNode.getNext().getNext() != null) {
 	    currentNode = currentNode.getNext();
 	}
@@ -40,7 +40,7 @@ public final class SingleLinkedListDeletion {
 
     static void printNodes(String message) {
         System.out.print(message + " ");
-	Node currentNode = top;
+	Node currentNode = head;
         while (currentNode != null) {
 	    System.out.print(currentNode + " ");
 	    currentNode = currentNode.getNext();

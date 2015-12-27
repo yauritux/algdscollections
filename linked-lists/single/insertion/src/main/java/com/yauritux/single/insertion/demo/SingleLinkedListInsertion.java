@@ -8,20 +8,20 @@ import com.yauritux.single.model.Node;
  */
 public final class SingleLinkedListInsertion {	
 
-	private static Node top;
+	private static Node head;
 
 	public static void main(String... args) {
 
 		// Case 1 - No node exists yet.
-		top = new Node("A");
+		head = new Node("A");
 		printNodes("Case 1");
 
 		// Case 2 - Node already exists,
 		// New node inserted at the first place 
 		// (i.e. before the first node).
 		Node newNode = new Node("B");
-		newNode.setNext(top);
-		top = newNode;
+		newNode.setNext(head);
+		head = newNode;
 		printNodes("Case 2");
 
 		// Case 3 - Node already exists,
@@ -32,7 +32,7 @@ public final class SingleLinkedListInsertion {
 		/**
 		 * Find the last node with linear search 
 		 */
-		Node lastNode = top; 
+		Node lastNode = head; 
 		while (lastNode.getNext() != null) {
 			lastNode = lastNode.getNext();
 		}
@@ -49,7 +49,7 @@ public final class SingleLinkedListInsertion {
 		/**
 		 * Find Node "B" 
 		 */
-		Node destNode = top;
+		Node destNode = head;
 		while (!destNode.getName().equals("B")) {
 			destNode = destNode.getNext();
 		}
@@ -62,7 +62,7 @@ public final class SingleLinkedListInsertion {
 
 	static void printNodes(String message) {
 		System.out.print(message + " ");
-		Node currentNode = top;
+		Node currentNode = head;
 		while (currentNode != null) {			
 			System.out.print(currentNode.getName() + " ");
 			currentNode = currentNode.getNext();
