@@ -37,7 +37,7 @@ See the picture below for clarity:
 
 ![Alt text](image.png)
 
-To prove it, we can calculate the volume using the formula: `width x height x height` where each height represent the respective number within the array that is paired together, and `width` represent the interval (distance) between the first pairing number to the second pairing number (index-based calculation).
+To prove it, we can calculate the volume using the formula: `width x height x height` where each `height` represent the respective number within the array that is paired together, and `width` represent the interval (distance) between the first pairing number to the second pairing number (**index-based calculation**).
 See all possible permutations as shown in the following table below (take a note that only sensible combinations were shown here):
 
 | 1st Pairing Number | Second Pairing Number | width | volume |
