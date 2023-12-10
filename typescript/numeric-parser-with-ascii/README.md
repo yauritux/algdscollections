@@ -1,7 +1,7 @@
 # Numeric Parser (With ASCII)
 
 As the name implies, this is just a simple algorithm for parsing any decimal numbers you provided as string into its numeric type (i.e., `Number`).
-I know that this seems like we're duplicating our `numeric-parser` project, but it's actually not. The implementation is slightly different because this particular one internally utilizes ASCII decimal code within its math conversion.
+I know that this seems like we're duplicating our `numeric-parser` project, but it's actually not. The implementation would be slightly different because this particular one internally utilizes ASCII decimal code within its math conversion.
 
 ## How does it work ?
 
