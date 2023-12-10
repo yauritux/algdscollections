@@ -1,8 +1,8 @@
 # algdscollections
 
-Collection of Algorithm and Data Structures that I deliberately write to spend some times during the weekend as an exercise for me to stay fit and sharp.
-Some of the exercises here were taken from the frequently asked questions raised during the interview process in FAANG companies. I'll do my best to collect and solve those problems here.
-For now, I have grouped the implementation written in two different languages, i.e. Java and Typescript since these two languages are the most spoken language for me in my daily jobs. Actually, I'm also working with Python and C++ in some cases, so I'm planning to write the Python and C++ version as well. Just stay tuned and watch this repository if you like it. Feel free to also contribute with your own solutions in your favourite languages :-).
+Collection of Algorithms and Data Structures that I deliberately write to spend some times during the weekend as an exercise for me to stay fit and sharp.
+Some of the exercises here were taken from the frequently asked questions raised during the interview process with FAANG companies. I'll do my best to collect and solve those problems here.
+For now, I have grouped the implementation written in two different languages, i.e. Java and Typescript since these two languages are the most spoken language for me in my daily jobs. Actually, I'm also working with Python and C++ in some cases, so I'm planning to write the Python and C++ version as well. Just stay tuned and watch this repository if you like it, and feel free to also contribute with your own solutions in your favourite languages :-).
 
 ## Running Application
 
