@@ -5,4 +5,14 @@ You can provide different number when calling the function to determine how many
 
 ## Run the Sample
 
-`npx ts-node index.ts`
+Create **15** stairs
+
+```
+gradle run -PappArgs="['15']"
+```
+
+Create **27** stairs
+
+```
+gradle run -PappArgs="['27']"
+```
