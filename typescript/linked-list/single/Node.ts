@@ -12,6 +12,16 @@ export default class Node {
     return this.next;
   }
 
+  get length(): number {
+    let current: Node = this;
+    let totalNodes = 1;
+    while (current.next) {
+      totalNodes++;
+      current = current.next;
+    }
+    return totalNodes;
+  }
+
   print(): void {
     let current: Node = this;
     let output = current.value;
