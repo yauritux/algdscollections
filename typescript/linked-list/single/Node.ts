@@ -20,7 +20,6 @@ export default class Node {
     console.log("inserting", value, "at position", position);
     let current: Node = this;
     if (position > this.length) {
-      let current: Node = this;
       while (current.next) {
         current = current.next;
         if (!current.next) {
