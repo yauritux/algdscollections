@@ -6,3 +6,8 @@ You can provide different number when calling the function to determine how many
 ## Run the Sample
 
 `npx ts-node index.ts`
+
+## Execute Test Scripts
+
+1. Go to the `typescript` root folder
+2. Execute `npm run test`

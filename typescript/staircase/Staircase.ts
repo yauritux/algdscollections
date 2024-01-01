@@ -1,5 +1,6 @@
 export default class Staircase {
-  printStairs(n: number): void {
+  printStairs(n: number): string[] {
+    let result = [];
     let numberOfSpaces = n - 1;
     let symbol = "*";
     for (let i = 0; i < n - 1; i++) {
@@ -8,9 +9,10 @@ export default class Staircase {
         stairs += " ";
       }
       stairs += symbol;
-      console.log(stairs);
+      result.push(stairs);
       symbol += "*";
       numberOfSpaces--;
     }
+    return result;
   }
 }
