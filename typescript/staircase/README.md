@@ -9,5 +9,5 @@ You can provide different number when calling the function to determine how many
 
 ## Execute Test Scripts
 
-1. Go to the `typescript` root folder
-2. Execute `npm run test`
+1. Go to the `typescript` root folder, i.e. folder contains `package.json` file.
+2. Execute `npm run test staircase/*`
